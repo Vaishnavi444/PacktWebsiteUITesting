@@ -8,8 +8,8 @@ I have used surefire reporting method for reporting as it is compatible with Tes
 
 2. Any installation instructions for your software and framework
    Install Maven:
-    Download from: https://maven.apache.org/download.cgi
-    Installation instruction: https://maven.apache.org/install.html
+   Download from: https://maven.apache.org/download.cgi
+   Installation instruction: https://maven.apache.org/install.html
    Dependencies from Maven:
    Testng: https://mvnrepository.com/artifact/org.testng/testng/7.7.1
    Selenium: https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java/4.11.0
@@ -18,12 +18,12 @@ I have used surefire reporting method for reporting as it is compatible with Tes
    Maven surefire report: https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-surefire-report-plugin/3.2.2
    These dependencies are added in pom.xml file.
 
-3. Instructions and commands to run your code
+4. Instructions and commands to run your code
    Github Repository Link:  https://github.com/Vaishnavi444/PacktWebsiteUITesting
    Commands to run:
    C:\<Path to workspace>\Selenium\PacktSiteAutomation>mvn test
    
-4. Any other information you would like us to know, the more documentation the better
+6. Any other information you would like us to know, the more documentation the better
    After running the test, Report can be viewed here
    C:\<Path to workspace>\Selenium\PacktSiteAutomation\target\surefire-reports\emailable-report.html
    Alternative report file:
