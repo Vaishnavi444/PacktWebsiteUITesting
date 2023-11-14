@@ -65,7 +65,7 @@ public class WebPageElementTest {
         // Verify the positioning 
     	int actualX = searchButton.getLocation().getX();
     	int actualY = searchButton.getLocation().getY();
-    	System.out.println("X = "+actualX+", Y = "+actualY);
+    	System.out.println("Positions: X = "+actualX+", Y = "+actualY);
         AssertJUnit.assertTrue(actualX > 0);
         AssertJUnit.assertTrue(actualY > 0);
     }

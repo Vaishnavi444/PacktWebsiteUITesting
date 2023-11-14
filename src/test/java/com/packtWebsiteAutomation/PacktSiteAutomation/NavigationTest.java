@@ -69,15 +69,15 @@ public class NavigationTest {
 		List<WebElement> navElements = driver.findElements(By.cssSelector(".navbar-nav a.nav-link"));
 		int navElementsSize = navElements.size();
 
-		for (int i = 0; i < navElementsSize; i++) {
+		for (int navElementIndex = 0; navElementIndex < navElementsSize; navElementIndex++) {
 			driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
-			System.out.println(navElementsSize);
-			WebElement navElement = navElements.get(i);
+			//System.out.println(navElementsSize);
+			WebElement navElement = navElements.get(navElementIndex);
 			driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 			if(navElement.isDisplayed())
 			{
 				String navText = navElement.getText().trim();
-				System.out.println(navElement.getText().trim());
+				//System.out.println(navElement.getText().trim());
 				// Get the text and href attribute of the navigation element
 				if (!isFormElement(navElement) && !isInputElement(navElement)) {
 					String expectedURL = navElement.getAttribute("href");
@@ -90,10 +90,8 @@ public class NavigationTest {
 
 						// Wait for a fixed time
 						driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
-						// Thread.sleep(5000); // Wait for 5 seconds
 
-						// Print the current URL
-						System.out.println(driver.getCurrentUrl());
+						//System.out.println(driver.getCurrentUrl());
 
 						// Verify that the page has navigated to the correct destination
 						assertPageNavigation(expectedURL);
@@ -114,23 +112,12 @@ public class NavigationTest {
 							driver.navigate().to(homeURL);
 							driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
 						}
-							
-
-						/*
-						 * WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(12));
-						 * wait.until(ExpectedConditions.urlContains(homeURL));
-						 */
 					}
 				}
 			}
 			driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
 			navElements = driver.findElements(By.cssSelector(".navbar-nav a.nav-link"));
-
 		}
-		
-		
-		
-		
 	}
 
 	private boolean isInputElement(WebElement navElement) {
@@ -146,10 +133,9 @@ public class NavigationTest {
 
 	private void assertPageNavigation(String expectedPageURL)
 			throws InterruptedException, UnsupportedEncodingException {
-		// Verify that the actual page URL contains the expected page URL
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
-
 		String actualPageURL = URLDecoder.decode(driver.getCurrentUrl(), "UTF-8");
+		// Verify that the actual page URL contains the expected page URL
 		assert actualPageURL.contains(expectedPageURL)
 				: "Navigation to " + expectedPageURL + " failed. Actual URL is " + actualPageURL;
 	}

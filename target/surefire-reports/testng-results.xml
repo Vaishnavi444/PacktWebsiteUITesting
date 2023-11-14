@@ -2,74 +2,74 @@
 <testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-11-14T14:37:28 IST" name="Surefire suite" finished-at="2023-11-14T14:45:17 IST" duration-ms="468684">
+  <suite started-at="2023-11-14T16:02:10 IST" name="Surefire suite" finished-at="2023-11-14T16:04:48 IST" duration-ms="158055">
     <groups>
     </groups>
-    <test started-at="2023-11-14T14:37:28 IST" name="Surefire test" finished-at="2023-11-14T14:45:17 IST" duration-ms="468684">
+    <test started-at="2023-11-14T16:02:10 IST" name="Surefire test" finished-at="2023-11-14T16:04:48 IST" duration-ms="158055">
       <class name="com.packtWebsiteAutomation.PacktSiteAutomation.CheckBrowseLibraryTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.packtWebsiteAutomation.PacktSiteAutomation.CheckBrowseLibraryTest@2f7c2f4f]" started-at="2023-11-14T14:37:28 IST" name="setUp" finished-at="2023-11-14T14:37:37 IST" duration-ms="8379" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.packtWebsiteAutomation.PacktSiteAutomation.CheckBrowseLibraryTest@2f7c2f4f]" started-at="2023-11-14T16:02:10 IST" name="setUp" finished-at="2023-11-14T16:02:21 IST" duration-ms="10172" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="BrowserLibraryVerification()[pri:0, instance:com.packtWebsiteAutomation.PacktSiteAutomation.CheckBrowseLibraryTest@2f7c2f4f]" started-at="2023-11-14T14:37:52 IST" name="BrowserLibraryVerification" finished-at="2023-11-14T14:38:22 IST" duration-ms="29909" status="PASS">
+        <test-method signature="BrowserLibraryVerification()[pri:0, instance:com.packtWebsiteAutomation.PacktSiteAutomation.CheckBrowseLibraryTest@2f7c2f4f]" started-at="2023-11-14T16:02:39 IST" name="BrowserLibraryVerification" finished-at="2023-11-14T16:03:09 IST" duration-ms="30839" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BrowserLibraryVerification -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.packtWebsiteAutomation.PacktSiteAutomation.CheckBrowseLibraryTest@2f7c2f4f]" started-at="2023-11-14T14:45:16 IST" name="tearDown" finished-at="2023-11-14T14:45:16 IST" duration-ms="389" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.packtWebsiteAutomation.PacktSiteAutomation.CheckBrowseLibraryTest@2f7c2f4f]" started-at="2023-11-14T16:04:47 IST" name="tearDown" finished-at="2023-11-14T16:04:48 IST" duration-ms="339" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.packtWebsiteAutomation.PacktSiteAutomation.CheckBrowseLibraryTest -->
       <class name="com.packtWebsiteAutomation.PacktSiteAutomation.WebPageElementTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.packtWebsiteAutomation.PacktSiteAutomation.WebPageElementTest@5223e5ee]" started-at="2023-11-14T14:37:47 IST" name="setUp" finished-at="2023-11-14T14:37:52 IST" duration-ms="5169" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.packtWebsiteAutomation.PacktSiteAutomation.WebPageElementTest@5223e5ee]" started-at="2023-11-14T16:02:30 IST" name="setUp" finished-at="2023-11-14T16:02:39 IST" duration-ms="8077" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testButtonColor()[pri:0, instance:com.packtWebsiteAutomation.PacktSiteAutomation.WebPageElementTest@5223e5ee]" started-at="2023-11-14T14:45:15 IST" name="testButtonColor" finished-at="2023-11-14T14:45:16 IST" duration-ms="68" status="PASS">
+        <test-method signature="testButtonColor()[pri:0, instance:com.packtWebsiteAutomation.PacktSiteAutomation.WebPageElementTest@5223e5ee]" started-at="2023-11-14T16:04:47 IST" name="testButtonColor" finished-at="2023-11-14T16:04:47 IST" duration-ms="51" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testButtonColor -->
-        <test-method signature="testLogo()[pri:0, instance:com.packtWebsiteAutomation.PacktSiteAutomation.WebPageElementTest@5223e5ee]" started-at="2023-11-14T14:45:16 IST" name="testLogo" finished-at="2023-11-14T14:45:16 IST" duration-ms="46" status="PASS">
+        <test-method signature="testLogo()[pri:0, instance:com.packtWebsiteAutomation.PacktSiteAutomation.WebPageElementTest@5223e5ee]" started-at="2023-11-14T16:04:47 IST" name="testLogo" finished-at="2023-11-14T16:04:47 IST" duration-ms="64" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLogo -->
-        <test-method signature="testSearchPosition()[pri:0, instance:com.packtWebsiteAutomation.PacktSiteAutomation.WebPageElementTest@5223e5ee]" started-at="2023-11-14T14:45:16 IST" name="testSearchPosition" finished-at="2023-11-14T14:45:16 IST" duration-ms="60" status="PASS">
+        <test-method signature="testSearchPosition()[pri:0, instance:com.packtWebsiteAutomation.PacktSiteAutomation.WebPageElementTest@5223e5ee]" started-at="2023-11-14T16:04:47 IST" name="testSearchPosition" finished-at="2023-11-14T16:04:47 IST" duration-ms="67" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSearchPosition -->
-        <test-method signature="testText()[pri:0, instance:com.packtWebsiteAutomation.PacktSiteAutomation.WebPageElementTest@5223e5ee]" started-at="2023-11-14T14:45:16 IST" name="testText" finished-at="2023-11-14T14:45:16 IST" duration-ms="46" status="PASS">
+        <test-method signature="testText()[pri:0, instance:com.packtWebsiteAutomation.PacktSiteAutomation.WebPageElementTest@5223e5ee]" started-at="2023-11-14T16:04:47 IST" name="testText" finished-at="2023-11-14T16:04:47 IST" duration-ms="39" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testText -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.packtWebsiteAutomation.PacktSiteAutomation.WebPageElementTest@5223e5ee]" started-at="2023-11-14T14:45:17 IST" name="tearDown" finished-at="2023-11-14T14:45:17 IST" duration-ms="316" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.packtWebsiteAutomation.PacktSiteAutomation.WebPageElementTest@5223e5ee]" started-at="2023-11-14T16:04:48 IST" name="tearDown" finished-at="2023-11-14T16:04:48 IST" duration-ms="241" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.packtWebsiteAutomation.PacktSiteAutomation.WebPageElementTest -->
       <class name="com.packtWebsiteAutomation.PacktSiteAutomation.NavigationTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.packtWebsiteAutomation.PacktSiteAutomation.NavigationTest@7ce3cb8e]" started-at="2023-11-14T14:37:37 IST" name="setUp" finished-at="2023-11-14T14:37:42 IST" duration-ms="4687" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.packtWebsiteAutomation.PacktSiteAutomation.NavigationTest@7ce3cb8e]" started-at="2023-11-14T16:02:21 IST" name="setUp" finished-at="2023-11-14T16:02:26 IST" duration-ms="5578" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testNavigation()[pri:0, instance:com.packtWebsiteAutomation.PacktSiteAutomation.NavigationTest@7ce3cb8e]" started-at="2023-11-14T14:38:22 IST" name="testNavigation" finished-at="2023-11-14T14:38:47 IST" duration-ms="25139" status="PASS">
+        <test-method signature="testNavigation()[pri:0, instance:com.packtWebsiteAutomation.PacktSiteAutomation.NavigationTest@7ce3cb8e]" started-at="2023-11-14T16:03:09 IST" name="testNavigation" finished-at="2023-11-14T16:03:37 IST" duration-ms="27551" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testNavigation -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.packtWebsiteAutomation.PacktSiteAutomation.NavigationTest@7ce3cb8e]" started-at="2023-11-14T14:45:16 IST" name="tearDown" finished-at="2023-11-14T14:45:16 IST" duration-ms="318" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.packtWebsiteAutomation.PacktSiteAutomation.NavigationTest@7ce3cb8e]" started-at="2023-11-14T16:04:48 IST" name="tearDown" finished-at="2023-11-14T16:04:48 IST" duration-ms="278" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.packtWebsiteAutomation.PacktSiteAutomation.NavigationTest -->
       <class name="com.packtWebsiteAutomation.PacktSiteAutomation.TitleCarouselCheckTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.packtWebsiteAutomation.PacktSiteAutomation.TitleCarouselCheckTest@78b66d36]" started-at="2023-11-14T14:37:42 IST" name="setUp" finished-at="2023-11-14T14:37:47 IST" duration-ms="5725" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.packtWebsiteAutomation.PacktSiteAutomation.TitleCarouselCheckTest@78b66d36]" started-at="2023-11-14T16:02:26 IST" name="setUp" finished-at="2023-11-14T16:02:30 IST" duration-ms="4271" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="TestToClickTitles()[pri:0, instance:com.packtWebsiteAutomation.PacktSiteAutomation.TitleCarouselCheckTest@78b66d36]" started-at="2023-11-14T14:38:47 IST" name="TestToClickTitles" finished-at="2023-11-14T14:45:15 IST" duration-ms="387989" status="PASS">
+        <test-method signature="TestToClickTitles()[pri:0, instance:com.packtWebsiteAutomation.PacktSiteAutomation.TitleCarouselCheckTest@78b66d36]" started-at="2023-11-14T16:03:37 IST" name="TestToClickTitles" finished-at="2023-11-14T16:04:47 IST" duration-ms="70167" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestToClickTitles -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.packtWebsiteAutomation.PacktSiteAutomation.TitleCarouselCheckTest@78b66d36]" started-at="2023-11-14T14:45:16 IST" name="tearDown" finished-at="2023-11-14T14:45:17 IST" duration-ms="377" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.packtWebsiteAutomation.PacktSiteAutomation.TitleCarouselCheckTest@78b66d36]" started-at="2023-11-14T16:04:48 IST" name="tearDown" finished-at="2023-11-14T16:04:48 IST" duration-ms="256" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

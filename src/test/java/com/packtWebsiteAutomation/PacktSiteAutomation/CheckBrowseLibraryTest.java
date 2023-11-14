@@ -43,7 +43,7 @@ public class CheckBrowseLibraryTest
 			WebElement browseLibrary = driver.findElement(By.xpath("/html/body/div[1]/div/nav/div[1]/a"));
 			String expectedURL = browseLibrary.getAttribute("href");
 			expectedURL = URLDecoder.decode(expectedURL, "UTF-8");
-			System.out.println(expectedURL);
+			//System.out.println(expectedURL);
 			browseLibrary.click();
 			WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(15));
 			wait.until(ExpectedConditions.urlContains(expectedURL));
@@ -52,10 +52,10 @@ public class CheckBrowseLibraryTest
 			wait.until(ExpectedConditions.elementToBeClickable(resetButton));
 			// Assuming you have a reference to the filter card element
 			List<WebElement> filterCards = driver.findElements(By.cssSelector(".filter-card"));
-			System.out.println(filterCards.size());
-			for(int i=0;i<filterCards.size();i++)
+			//System.out.println(filterCards.size());
+			for(int filtercardIndex=0;filtercardIndex<filterCards.size();filtercardIndex++)
 			{
-				WebElement filtercard = filterCards.get(i);
+				WebElement filtercard = filterCards.get(filtercardIndex);
 				WebElement filterTitleElement = filtercard.findElement(By.cssSelector(".title"));
 				String filterTitle = filterTitleElement.getAttribute("innerHTML");
 				if(filterTitle.equals("Published Year"))
@@ -64,7 +64,7 @@ public class CheckBrowseLibraryTest
 					arrowImageToClick.click();
 					WebElement dropDown = filtercard.findElement(By.cssSelector(".popup"));
 					List <WebElement> years = dropDown.findElements(By.cssSelector(".value"));
-					System.out.println(years.size());
+					//System.out.println(years.size());
 					for (int j=0;j<years.size();j++)
 					{
 						WebElement yearElement = years.get(j);
@@ -76,22 +76,19 @@ public class CheckBrowseLibraryTest
 							break;
 						}
 					}
-					
-					
 				}
-				
 			}
+			
+			//Locate the search Input element
 			WebElement searchInput = driver.findElement(By.id("search-input")).findElement(By.tagName("input"));
-
 	        // Locate the search icon element
 	        WebElement searchIcon = driver.findElement(By.className("search-icon"));
-
 	        // Text values to enter in the search bar
 	        String[] searchValues = {"Python", "Paint", "Secure", "Tableau"};
 
 	        // Loop through the values
 	        for (String value : searchValues) {
-	        	System.out.println(value);
+	        	//System.out.println(value);
 	            // Enter text into the search bar
 	            searchInput.clear(); // Clear the input field before entering a new value
 	            searchInput.sendKeys(value);
@@ -101,7 +98,7 @@ public class CheckBrowseLibraryTest
 	            //searchInput.sendKeys(Keys.ENTER);
 	            Thread.sleep(6000);
 	            List<WebElement> productCards = driver.findElements(By.cssSelector(".product-card"));
-	            System.out.println(productCards.size());
+	            //System.out.println(productCards.size());
 	            for(int k=0;k<productCards.size();k++) 
 	            {
 	            	WebElement productCard = productCards.get(k);
@@ -111,15 +108,10 @@ public class CheckBrowseLibraryTest
 	            	try {
 	                    assertBookTitles(productTitle, value);
 	                } catch (AssertionError e) {
-	                    // Print a message indicating the assertion failure, but continue the loop
 	                    System.out.println("Assertion failed for product title: " + productTitle + " for value: " + value);
 	                    e.printStackTrace(); // Print the stack trace for debugging purposes
 	                }
-	            	//
-	            }
-	            
-
-	            
+	            }  
 	        }
 	    }
 		private void assertBookTitles(String productTitle,String value) throws UnsupportedEncodingException {
