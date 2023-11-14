@@ -1,0 +1,598 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.packtWebsiteAutomation.PacktSiteAutomation.TitleCarouselCheck" time="487.984" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="19"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\Hemanth\eclipse-workspace\Selenium\PacktSiteAutomation\target\test-classes;C:\Users\Hemanth\eclipse-workspace\Selenium\PacktSiteAutomation\target\classes;C:\Users\Hemanth\.m2\repository\org\testng\testng\7.7.1\testng-7.7.1.jar;C:\Users\Hemanth\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\Hemanth\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\Hemanth\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\Hemanth\.m2\repository\org\seleniumhq\selenium\selenium-java\4.11.0\selenium-java-4.11.0.jar;C:\Users\Hemanth\.m2\repository\org\seleniumhq\selenium\selenium-api\4.11.0\selenium-api-4.11.0.jar;C:\Users\Hemanth\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.11.0\selenium-chrome-driver-4.11.0.jar;C:\Users\Hemanth\.m2\repository\com\google\auto\service\auto-service-annotations\1.0.1\auto-service-annotations-1.0.1.jar;C:\Users\Hemanth\.m2\repository\com\google\guava\guava\31.1-jre\guava-31.1-jre.jar;C:\Users\Hemanth\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\Hemanth\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Hemanth\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Hemanth\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\Hemanth\.m2\repository\com\google\errorprone\error_prone_annotations\2.11.0\error_prone_annotations-2.11.0.jar;C:\Users\Hemanth\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\Hemanth\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.11.0\selenium-chromium-driver-4.11.0.jar;C:\Users\Hemanth\.m2\repository\org\seleniumhq\selenium\selenium-json\4.11.0\selenium-json-4.11.0.jar;C:\Users\Hemanth\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.11.0\selenium-manager-4.11.0.jar;C:\Users\Hemanth\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v113\4.11.0\selenium-devtools-v113-4.11.0.jar;C:\Users\Hemanth\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v114\4.11.0\selenium-devtools-v114-4.11.0.jar;C:\Users\Hemanth\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v115\4.11.0\selenium-devtools-v115-4.11.0.jar;C:\Users\Hemanth\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.11.0\selenium-devtools-v85-4.11.0.jar;C:\Users\Hemanth\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.11.0\selenium-edge-driver-4.11.0.jar;C:\Users\Hemanth\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.11.0\selenium-firefox-driver-4.11.0.jar;C:\Users\Hemanth\.m2\repository\org\seleniumhq\selenium\selenium-http\4.11.0\selenium-http-4.11.0.jar;C:\Users\Hemanth\.m2\repository\dev\failsafe\failsafe\3.3.1\failsafe-3.3.1.jar;C:\Users\Hemanth\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.11.0\selenium-ie-driver-4.11.0.jar;C:\Users\Hemanth\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.11.0\selenium-remote-driver-4.11.0.jar;C:\Users\Hemanth\.m2\repository\io\netty\netty-buffer\4.1.92.Final\netty-buffer-4.1.92.Final.jar;C:\Users\Hemanth\.m2\repository\io\netty\netty-codec-http\4.1.92.Final\netty-codec-http-4.1.92.Final.jar;C:\Users\Hemanth\.m2\repository\io\netty\netty-codec\4.1.92.Final\netty-codec-4.1.92.Final.jar;C:\Users\Hemanth\.m2\repository\io\netty\netty-handler\4.1.92.Final\netty-handler-4.1.92.Final.jar;C:\Users\Hemanth\.m2\repository\io\netty\netty-common\4.1.92.Final\netty-common-4.1.92.Final.jar;C:\Users\Hemanth\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.92.Final\netty-transport-classes-epoll-4.1.92.Final.jar;C:\Users\Hemanth\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.92.Final\netty-transport-classes-kqueue-4.1.92.Final.jar;C:\Users\Hemanth\.m2\repository\io\netty\netty-transport-native-epoll\4.1.92.Final\netty-transport-native-epoll-4.1.92.Final.jar;C:\Users\Hemanth\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.92.Final\netty-transport-native-kqueue-4.1.92.Final.jar;C:\Users\Hemanth\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.92.Final\netty-transport-native-unix-common-4.1.92.Final.jar;C:\Users\Hemanth\.m2\repository\io\netty\netty-transport\4.1.92.Final\netty-transport-4.1.92.Final.jar;C:\Users\Hemanth\.m2\repository\io\netty\netty-resolver\4.1.92.Final\netty-resolver-4.1.92.Final.jar;C:\Users\Hemanth\.m2\repository\io\opentelemetry\opentelemetry-api\1.26.0\opentelemetry-api-1.26.0.jar;C:\Users\Hemanth\.m2\repository\io\opentelemetry\opentelemetry-context\1.26.0\opentelemetry-context-1.26.0.jar;C:\Users\Hemanth\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.26.0\opentelemetry-exporter-logging-1.26.0.jar;C:\Users\Hemanth\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.26.0\opentelemetry-sdk-metrics-1.26.0.jar;C:\Users\Hemanth\.m2\repository\io\opentelemetry\opentelemetry-extension-incubator\1.26.0-alpha\opentelemetry-extension-incubator-1.26.0-alpha.jar;C:\Users\Hemanth\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.26.0-alpha\opentelemetry-sdk-logs-1.26.0-alpha.jar;C:\Users\Hemanth\.m2\repository\io\opentelemetry\opentelemetry-api-logs\1.26.0-alpha\opentelemetry-api-logs-1.26.0-alpha.jar;C:\Users\Hemanth\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.26.0-alpha\opentelemetry-api-events-1.26.0-alpha.jar;C:\Users\Hemanth\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.26.0\opentelemetry-sdk-common-1.26.0.jar;C:\Users\Hemanth\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.26.0\opentelemetry-sdk-extension-autoconfigure-spi-1.26.0.jar;C:\Users\Hemanth\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.26.0-alpha\opentelemetry-sdk-extension-autoconfigure-1.26.0-alpha.jar;C:\Users\Hemanth\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.26.0\opentelemetry-sdk-trace-1.26.0.jar;C:\Users\Hemanth\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.26.0\opentelemetry-sdk-1.26.0.jar;C:\Users\Hemanth\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.26.0-alpha\opentelemetry-semconv-1.26.0-alpha.jar;C:\Users\Hemanth\.m2\repository\net\bytebuddy\byte-buddy\1.14.4\byte-buddy-1.14.4.jar;C:\Users\Hemanth\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Hemanth\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar;C:\Users\Hemanth\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar;C:\Users\Hemanth\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar;C:\Users\Hemanth\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar;C:\Users\Hemanth\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\Users\Hemanth\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\Users\Hemanth\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\Hemanth\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\Hemanth\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\Hemanth\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.11.0\selenium-safari-driver-4.11.0.jar;C:\Users\Hemanth\.m2\repository\org\seleniumhq\selenium\selenium-support\4.11.0\selenium-support-4.11.0.jar;C:\Users\Hemanth\.m2\repository\org\slf4j\slf4j-simple\2.0.9\slf4j-simple-2.0.9.jar;C:\Users\Hemanth\.m2\repository\com\aventstack\extentreports\4.1.5\extentreports-4.1.5.jar;C:\Users\Hemanth\.m2\repository\org\freemarker\freemarker\2.3.29\freemarker-2.3.29.jar;C:\Users\Hemanth\.m2\repository\org\apache\httpcomponents\httpclient\4.5.2\httpclient-4.5.2.jar;C:\Users\Hemanth\.m2\repository\org\apache\httpcomponents\httpcore\4.4.4\httpcore-4.4.4.jar;C:\Users\Hemanth\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Hemanth\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;C:\Users\Hemanth\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;C:\Users\Hemanth\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\Hemanth\.m2\repository\org\mongodb\mongodb-driver\3.12.0\mongodb-driver-3.12.0.jar;C:\Users\Hemanth\.m2\repository\org\mongodb\mongodb-driver-core\3.12.0\mongodb-driver-core-3.12.0.jar;C:\Users\Hemanth\.m2\repository\org\mongodb\bson\3.12.0\bson-3.12.0.jar;C:\Users\Hemanth\.m2\repository\org\uncommons\reportng\1.1.4\reportng-1.1.4.jar;C:\Users\Hemanth\.m2\repository\velocity\velocity\1.4\velocity-1.4.jar;C:\Users\Hemanth\.m2\repository\velocity\velocity-dep\1.4\velocity-dep-1.4.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="19"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-19\bin"/>
+    <property name="sun.java.command" value="C:\Users\Hemanth\AppData\Local\Temp\surefire9831862728914667453\surefirebooter-20231114140824019_3.jar C:\Users\Hemanth\AppData\Local\Temp\surefire9831862728914667453 2023-11-14T14-08-23_756-jvmRun1 surefire-20231114140824019_1tmp surefire_0-20231114140824019_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="test" value="TitleCarouselCheck.java"/>
+    <property name="surefire.test.class.path" value="C:\Users\Hemanth\eclipse-workspace\Selenium\PacktSiteAutomation\target\test-classes;C:\Users\Hemanth\eclipse-workspace\Selenium\PacktSiteAutomation\target\classes;C:\Users\Hemanth\.m2\repository\org\testng\testng\7.7.1\testng-7.7.1.jar;C:\Users\Hemanth\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\Hemanth\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\Hemanth\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\Hemanth\.m2\repository\org\seleniumhq\selenium\selenium-java\4.11.0\selenium-java-4.11.0.jar;C:\Users\Hemanth\.m2\repository\org\seleniumhq\selenium\selenium-api\4.11.0\selenium-api-4.11.0.jar;C:\Users\Hemanth\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.11.0\selenium-chrome-driver-4.11.0.jar;C:\Users\Hemanth\.m2\repository\com\google\auto\service\auto-service-annotations\1.0.1\auto-service-annotations-1.0.1.jar;C:\Users\Hemanth\.m2\repository\com\google\guava\guava\31.1-jre\guava-31.1-jre.jar;C:\Users\Hemanth\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\Hemanth\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Hemanth\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Hemanth\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\Hemanth\.m2\repository\com\google\errorprone\error_prone_annotations\2.11.0\error_prone_annotations-2.11.0.jar;C:\Users\Hemanth\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\Hemanth\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.11.0\selenium-chromium-driver-4.11.0.jar;C:\Users\Hemanth\.m2\repository\org\seleniumhq\selenium\selenium-json\4.11.0\selenium-json-4.11.0.jar;C:\Users\Hemanth\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.11.0\selenium-manager-4.11.0.jar;C:\Users\Hemanth\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v113\4.11.0\selenium-devtools-v113-4.11.0.jar;C:\Users\Hemanth\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v114\4.11.0\selenium-devtools-v114-4.11.0.jar;C:\Users\Hemanth\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v115\4.11.0\selenium-devtools-v115-4.11.0.jar;C:\Users\Hemanth\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.11.0\selenium-devtools-v85-4.11.0.jar;C:\Users\Hemanth\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.11.0\selenium-edge-driver-4.11.0.jar;C:\Users\Hemanth\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.11.0\selenium-firefox-driver-4.11.0.jar;C:\Users\Hemanth\.m2\repository\org\seleniumhq\selenium\selenium-http\4.11.0\selenium-http-4.11.0.jar;C:\Users\Hemanth\.m2\repository\dev\failsafe\failsafe\3.3.1\failsafe-3.3.1.jar;C:\Users\Hemanth\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.11.0\selenium-ie-driver-4.11.0.jar;C:\Users\Hemanth\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.11.0\selenium-remote-driver-4.11.0.jar;C:\Users\Hemanth\.m2\repository\io\netty\netty-buffer\4.1.92.Final\netty-buffer-4.1.92.Final.jar;C:\Users\Hemanth\.m2\repository\io\netty\netty-codec-http\4.1.92.Final\netty-codec-http-4.1.92.Final.jar;C:\Users\Hemanth\.m2\repository\io\netty\netty-codec\4.1.92.Final\netty-codec-4.1.92.Final.jar;C:\Users\Hemanth\.m2\repository\io\netty\netty-handler\4.1.92.Final\netty-handler-4.1.92.Final.jar;C:\Users\Hemanth\.m2\repository\io\netty\netty-common\4.1.92.Final\netty-common-4.1.92.Final.jar;C:\Users\Hemanth\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.92.Final\netty-transport-classes-epoll-4.1.92.Final.jar;C:\Users\Hemanth\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.92.Final\netty-transport-classes-kqueue-4.1.92.Final.jar;C:\Users\Hemanth\.m2\repository\io\netty\netty-transport-native-epoll\4.1.92.Final\netty-transport-native-epoll-4.1.92.Final.jar;C:\Users\Hemanth\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.92.Final\netty-transport-native-kqueue-4.1.92.Final.jar;C:\Users\Hemanth\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.92.Final\netty-transport-native-unix-common-4.1.92.Final.jar;C:\Users\Hemanth\.m2\repository\io\netty\netty-transport\4.1.92.Final\netty-transport-4.1.92.Final.jar;C:\Users\Hemanth\.m2\repository\io\netty\netty-resolver\4.1.92.Final\netty-resolver-4.1.92.Final.jar;C:\Users\Hemanth\.m2\repository\io\opentelemetry\opentelemetry-api\1.26.0\opentelemetry-api-1.26.0.jar;C:\Users\Hemanth\.m2\repository\io\opentelemetry\opentelemetry-context\1.26.0\opentelemetry-context-1.26.0.jar;C:\Users\Hemanth\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.26.0\opentelemetry-exporter-logging-1.26.0.jar;C:\Users\Hemanth\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.26.0\opentelemetry-sdk-metrics-1.26.0.jar;C:\Users\Hemanth\.m2\repository\io\opentelemetry\opentelemetry-extension-incubator\1.26.0-alpha\opentelemetry-extension-incubator-1.26.0-alpha.jar;C:\Users\Hemanth\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.26.0-alpha\opentelemetry-sdk-logs-1.26.0-alpha.jar;C:\Users\Hemanth\.m2\repository\io\opentelemetry\opentelemetry-api-logs\1.26.0-alpha\opentelemetry-api-logs-1.26.0-alpha.jar;C:\Users\Hemanth\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.26.0-alpha\opentelemetry-api-events-1.26.0-alpha.jar;C:\Users\Hemanth\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.26.0\opentelemetry-sdk-common-1.26.0.jar;C:\Users\Hemanth\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.26.0\opentelemetry-sdk-extension-autoconfigure-spi-1.26.0.jar;C:\Users\Hemanth\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.26.0-alpha\opentelemetry-sdk-extension-autoconfigure-1.26.0-alpha.jar;C:\Users\Hemanth\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.26.0\opentelemetry-sdk-trace-1.26.0.jar;C:\Users\Hemanth\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.26.0\opentelemetry-sdk-1.26.0.jar;C:\Users\Hemanth\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.26.0-alpha\opentelemetry-semconv-1.26.0-alpha.jar;C:\Users\Hemanth\.m2\repository\net\bytebuddy\byte-buddy\1.14.4\byte-buddy-1.14.4.jar;C:\Users\Hemanth\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Hemanth\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar;C:\Users\Hemanth\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar;C:\Users\Hemanth\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar;C:\Users\Hemanth\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar;C:\Users\Hemanth\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\Users\Hemanth\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\Users\Hemanth\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\Hemanth\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\Hemanth\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\Hemanth\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.11.0\selenium-safari-driver-4.11.0.jar;C:\Users\Hemanth\.m2\repository\org\seleniumhq\selenium\selenium-support\4.11.0\selenium-support-4.11.0.jar;C:\Users\Hemanth\.m2\repository\org\slf4j\slf4j-simple\2.0.9\slf4j-simple-2.0.9.jar;C:\Users\Hemanth\.m2\repository\com\aventstack\extentreports\4.1.5\extentreports-4.1.5.jar;C:\Users\Hemanth\.m2\repository\org\freemarker\freemarker\2.3.29\freemarker-2.3.29.jar;C:\Users\Hemanth\.m2\repository\org\apache\httpcomponents\httpclient\4.5.2\httpclient-4.5.2.jar;C:\Users\Hemanth\.m2\repository\org\apache\httpcomponents\httpcore\4.4.4\httpcore-4.4.4.jar;C:\Users\Hemanth\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Hemanth\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;C:\Users\Hemanth\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;C:\Users\Hemanth\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\Hemanth\.m2\repository\org\mongodb\mongodb-driver\3.12.0\mongodb-driver-3.12.0.jar;C:\Users\Hemanth\.m2\repository\org\mongodb\mongodb-driver-core\3.12.0\mongodb-driver-core-3.12.0.jar;C:\Users\Hemanth\.m2\repository\org\mongodb\bson\3.12.0\bson-3.12.0.jar;C:\Users\Hemanth\.m2\repository\org\uncommons\reportng\1.1.4\reportng-1.1.4.jar;C:\Users\Hemanth\.m2\repository\velocity\velocity\1.4\velocity-1.4.jar;C:\Users\Hemanth\.m2\repository\velocity\velocity-dep\1.4\velocity-dep-1.4.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Hemanth"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-01-17"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-19"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\Hemanth\eclipse-workspace\Selenium\PacktSiteAutomation"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\Hemanth\AppData\Local\Temp\surefire9831862728914667453\surefirebooter-20231114140824019_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="19.0.2+7-44"/>
+    <property name="user.name" value="Hemanth"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Hemanth\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Hemanth\AppData\Local\Temp\"/>
+    <property name="java.version" value="19.0.2"/>
+    <property name="user.dir" value="C:\Users\Hemanth\eclipse-workspace\Selenium\PacktSiteAutomation"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-19\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Python\Scripts\;C:\Program Files\Python\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\kube;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\Google\Cloud SDK\google-cloud-sdk\bin;C:\Users\Hemanth\;C:\Users\Hemanth\Downloads\apache-maven-3.9.1-bin\apache-maven-3.9.1\bin;C:\Program Files\Java\jdk-19\bin;%M2_HOME%\bin;C:\Program Files\Git\cmd;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Program Files\Java\jdk1.8.0_351\bin\;C:\Users\Hemanth\AppData\Local\Microsoft\WindowsApps;;C:\Users\Hemanth\AppData\Local\Programs\Microsoft VS Code\bin;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="19.0.2+7-44"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="63.0"/>
+  </properties>
+  <testcase name="TestToClickTitles" classname="com.packtWebsiteAutomation.PacktSiteAutomation.TitleCarouselCheck" time="403.784">
+    <system-out><![CDATA[Browser started
+TITLE CAROUSEL CHECK STARTED
+20
+true
+true
+1
+Link Text: Part 1: Causality – an Introduction
+Page Text: Part 1: Causality – an Introduction
+false
+true
+6
+Link Text: Chapter 1: Causality – Hey, We Have Machine Learning, So Why Even Bother?
+Page Text: Causality – Hey, We Have Machine Learning, So Why Even Bother?
+false
+6
+Link Text: A brief history of causality
+Page Text: A brief history of causality
+false
+6
+Link Text: Why causality? Ask babies!
+Page Text: Why causality? Ask babies!
+false
+6
+Link Text: How not to lose money… and human lives
+Page Text: How not to lose money… and human lives
+false
+6
+Link Text: Wrapping it up
+Page Text: Wrapping it up
+false
+6
+Link Text: References
+Page Text: References
+false
+true
+8
+Link Text: Chapter 2: Judea Pearl and the Ladder of Causation
+Page Text: Judea Pearl and the Ladder of Causation
+false
+8
+Link Text: From associations to logic and imagination – the Ladder of Causation
+Page Text: From associations to logic and imagination – the Ladder of Causation
+false
+8
+Link Text: Associations
+Page Text: Associations
+false
+8
+Link Text: What are interventions?
+Page Text: What are interventions?
+false
+8
+Link Text: What are counterfactuals?
+Page Text: What are counterfactuals?
+false
+8
+Link Text: Extra – is all machine learning causally the same?
+Page Text: Extra – is all machine learning causally the same?
+false
+8
+Link Text: Wrapping it up
+Page Text: Wrapping it up
+false
+8
+Link Text: References
+Page Text: References
+false
+true
+6
+Link Text: Chapter 3: Regression, Observations, and Interventions
+Page Text: Regression, Observations, and Interventions
+false
+6
+Link Text: Starting simple – observational data and linear regression
+Page Text: Starting simple – observational data and linear regression
+false
+6
+Link Text: Should we always control for all available covariates?
+Page Text: Should we always control for all available covariates?
+false
+6
+Link Text: Regression and structural models
+Page Text: Regression and structural models
+false
+6
+Link Text: Wrapping it up
+Page Text: Wrapping it up
+false
+6
+Link Text: References
+Page Text: References
+false
+true
+8
+Link Text: Chapter 4: Graphical Models
+Page Text: Graphical Models
+false
+8
+Link Text: Graphs, graphs, graphs
+Page Text: Graphs, graphs, graphs
+false
+8
+Link Text: What is a graphical model?
+Page Text: What is a graphical model?
+false
+8
+Link Text: DAG your pardon? Directed acyclic graphs in the causal wonderland
+Page Text: DAG your pardon? Directed acyclic graphs in the causal wonderland
+false
+8
+Link Text: Sources of causal graphs in the real world
+Page Text: Sources of causal graphs in the real world
+false
+8
+Link Text: Extra – is there causality beyond DAGs?
+Page Text: Extra – is there causality beyond DAGs?
+false
+8
+Link Text: Wrapping it up
+Page Text: Wrapping it up
+false
+8
+Link Text: References
+Page Text: References
+false
+true
+6
+Link Text: Chapter 5: Forks, Chains, and Immoralities
+Page Text: Forks, Chains, and Immoralities
+false
+6
+Link Text: Graphs and distributions and how to map between them
+Page Text: Graphs and distributions and how to map between them
+false
+6
+Link Text: Chains, forks, and colliders or…immoralities
+Page Text: Chains, forks, and colliders or…immoralities
+false
+6
+Link Text: Forks, chains, colliders, and regression
+Page Text: Forks, chains, colliders, and regression
+false
+6
+Link Text: Wrapping it up
+Page Text: Wrapping it up
+false
+6
+Link Text: References
+Page Text: References
+false
+true
+1
+Link Text: Part 2: Causal Inference
+Page Text: Part 2: Causal Inference
+false
+true
+9
+Link Text: Chapter 6: Nodes, Edges, and Statistical (In)dependence
+Page Text: Nodes, Edges, and Statistical (In)dependence
+false
+9
+Link Text: You’re gonna keep ‘em d-separated
+Page Text: You’re gonna keep ‘em d-separated
+false
+9
+Link Text: Estimand first!
+Page Text: Estimand first!
+false
+9
+Link Text: The back-door criterion
+Page Text: The back-door criterion
+false
+9
+Link Text: The front-door criterion
+Page Text: The front-door criterion
+false
+9
+Link Text: Are there other criteria out there? Let’s do-calculus!
+Page Text: Are there other criteria out there? Let’s do-calculus!
+false
+9
+Link Text: Wrapping it up
+Page Text: Wrapping it up
+false
+9
+Link Text: Answer
+Page Text: Answer
+false
+9
+Link Text: References
+Page Text: References
+false
+true
+9
+Link Text: Chapter 7: The Four-Step Process of Causal Inference
+Page Text: The Four-Step Process of Causal Inference
+false
+9
+Link Text: Introduction to DoWhy and EconML
+Page Text: Introduction to DoWhy and EconML
+false
+9
+Link Text: Step 1 – modeling the problem
+Page Text: Step 1 – modeling the problem
+false
+9
+Link Text: Step 2 – identifying the estimand(s)
+Page Text: Step 2 – identifying the estimand(s)
+false
+9
+Link Text: Step 3 – obtaining estimates
+Page Text: Step 3 – obtaining estimates
+false
+9
+Link Text: Step 4 – where’s my validation set? Refutation tests
+Page Text: Step 4 – where’s my validation set? Refutation tests
+false
+9
+Link Text: Full example
+Page Text: Full example
+false
+9
+Link Text: Wrapping it up
+Page Text: Wrapping it up
+false
+9
+Link Text: References
+Page Text: References
+false
+true
+8
+Link Text: Chapter 8: Causal Models – Assumptions and Challenges
+Page Text: Causal Models – Assumptions and Challenges
+false
+8
+Link Text: I am the king of the world! But am I?
+Page Text: I am the king of the world! But am I?
+false
+8
+Link Text: Positivity
+Page Text: Positivity
+false
+8
+Link Text: Exchangeability
+Page Text: Exchangeability
+false
+8
+Link Text: …and more
+Page Text: …and more
+false
+8
+Link Text: Call me names – spurious relationships in the wild
+Page Text: Call me names – spurious relationships in the wild
+false
+8
+Link Text: Wrapping it up
+Page Text: Wrapping it up
+false
+8
+Link Text: References
+Page Text: References
+false
+true
+9
+Link Text: Chapter 9: Causal Inference and Machine Learning – from Matching to Meta-Learners
+Page Text: Causal Inference and Machine Learning – from Matching to Meta-Learners
+false
+9
+Link Text: The basics I – matching
+Page Text: The basics I – matching
+false
+9
+Link Text: The basics II – propensity scores
+Page Text: The basics II – propensity scores
+false
+9
+Link Text: Inverse probability weighting (IPW)
+Page Text: Inverse probability weighting (IPW)
+false
+9
+Link Text: S-Learner – the Lone Ranger
+Page Text: S-Learner – the Lone Ranger
+false
+9
+Link Text: T-Learner – together we can do more
+Page Text: T-Learner – together we can do more
+false
+9
+Link Text: X-Learner – a step further
+Page Text: X-Learner – a step further
+false
+9
+Link Text: Wrapping it up
+Page Text: Wrapping it up
+false
+9
+Link Text: References
+Page Text: References
+false
+true
+8
+Link Text: Chapter 10: Causal Inference and Machine Learning – Advanced Estimators, Experiments, Evaluations, and More
+Page Text: Causal Inference and Machine Learning – Advanced Estimators, Experiments, Evaluations, and More
+false
+8
+Link Text: Doubly robust methods – let’s get more!
+Page Text: Doubly robust methods – let’s get more!
+false
+8
+Link Text: If machine learning is cool, how about double machine learning?
+Page Text: If machine learning is cool, how about double machine learning?
+false
+8
+Link Text: Causal Forests and more
+Page Text: Causal Forests and more
+false
+8
+Link Text: Heterogeneous treatment effects with experimental data – the uplift odyssey
+Page Text: Heterogeneous treatment effects with experimental data – the uplift odyssey
+false
+8
+Link Text: Extra – counterfactual explanations
+Page Text: Extra – counterfactual explanations
+false
+8
+Link Text: Wrapping it up
+Page Text: Wrapping it up
+false
+8
+Link Text: References
+Page Text: References
+false
+true
+6
+Link Text: Chapter 11: Causal Inference and Machine Learning – Deep Learning, NLP, and Beyond
+Page Text: Causal Inference and Machine Learning – Deep Learning, NLP, and Beyond
+false
+6
+Link Text: Going deeper – deep learning for heterogeneous treatment effects
+Page Text: Going deeper – deep learning for heterogeneous treatment effects
+false
+6
+Link Text: Transformers and causal inference
+Page Text: Transformers and causal inference
+false
+6
+Link Text: Causality and time series – when an econometrician goes Bayesian
+Page Text: Causality and time series – when an econometrician goes Bayesian
+false
+6
+Link Text: Wrapping it up
+Page Text: Wrapping it up
+false
+6
+Link Text: References
+Page Text: References
+false
+true
+1
+Link Text: Part 3: Causal Discovery
+Page Text: Part 3: Causal Discovery
+false
+true
+7
+Link Text: Chapter 12: Can I Have a Causal Graph, Please?
+Page Text: Can I Have a Causal Graph, Please?
+false
+7
+Link Text: Sources of causal knowledge
+Page Text: Sources of causal knowledge
+false
+7
+Link Text: Scientific insights
+Page Text: Scientific insights
+false
+7
+Link Text: Personal experience and domain knowledge
+Page Text: Personal experience and domain knowledge
+false
+7
+Link Text: Causal structure learning
+Page Text: Causal structure learning
+false
+7
+Link Text: Wrapping it up
+Page Text: Wrapping it up
+false
+7
+Link Text: References
+Page Text: References
+false
+true
+11
+Link Text: Chapter 13: Causal Discovery and Machine Learning – from Assumptions to Applications
+Page Text: Causal Discovery and Machine Learning – from Assumptions to Applications
+false
+11
+Link Text: Causal discovery – assumptions refresher
+Page Text: Causal discovery – assumptions refresher
+false
+11
+Link Text: The four (and a half) families
+Page Text: The four (and a half) families
+false
+11
+Link Text: Introduction to gCastle
+Page Text: Introduction to gCastle
+false
+11
+Link Text: Constraint-based causal discovery
+Page Text: Constraint-based causal discovery
+false
+11
+Link Text: Score-based causal discovery
+Page Text: Score-based causal discovery
+false
+11
+Link Text: Functional causal discovery
+Page Text: Functional causal discovery
+false
+11
+Link Text: Gradient-based causal discovery
+Page Text: Gradient-based causal discovery
+false
+11
+Link Text: Encoding expert knowledge
+Page Text: Encoding expert knowledge
+false
+11
+Link Text: Wrapping it up
+Page Text: Wrapping it up
+false
+11
+Link Text: References
+Page Text: References
+false
+true
+7
+Link Text: Chapter 14: Causal Discovery and Machine Learning – Advanced Deep Learning and Beyond
+Page Text: Causal Discovery and Machine Learning – Advanced Deep Learning and Beyond
+false
+7
+Link Text: Advanced causal discovery with deep learning
+Page Text: Advanced causal discovery with deep learning
+false
+7
+Link Text: Causal discovery under hidden confounding
+Page Text: Causal discovery under hidden confounding
+false
+7
+Link Text: Extra – going beyond observations
+Page Text: Extra – going beyond observations
+false
+7
+Link Text: Causal discovery – real-world applications, challenges, and open problems
+Page Text: Causal discovery – real-world applications, challenges, and open problems
+false
+7
+Link Text: Wrapping it up!
+Page Text: Wrapping it up!
+false
+7
+Link Text: References
+Page Text: References
+false
+true
+9
+Link Text: Chapter 15: Epilogue
+Page Text: Epilogue
+false
+9
+Link Text: What we’ve learned in this book
+Page Text: What we’ve learned in this book
+false
+9
+Link Text: Five steps to get the best out of your causal project
+Page Text: Five steps to get the best out of your causal project
+false
+9
+Link Text: Causality and business
+Page Text: Causality and business
+false
+9
+Link Text: Toward the future of causal ML
+Page Text: Toward the future of causal ML
+false
+9
+Link Text: Learning causality
+Page Text: Learning causality
+false
+9
+Link Text: Let’s stay in touch
+Page Text: Let’s stay in touch
+false
+9
+Link Text: Wrapping it up
+Page Text: Wrapping it up
+false
+9
+Link Text: References
+Page Text: References
+false
+true
+2
+Link Text: Index
+Page Text: Index
+false
+2
+Link Text: Why subscribe?
+Page Text: Why subscribe?
+false
+true
+4
+Link Text: Other Books You May Enjoy
+Page Text: Other Books You May Enjoy
+false
+4
+Link Text: Packt is searching for authors like you
+Page Text: Packt is searching for authors like you
+false
+4
+Link Text: Share Your Thoughts
+Page Text: Share Your Thoughts
+false
+4
+Link Text: Download a free PDF copy of this book
+Page Text: Download a free PDF copy of this book
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Nov 14, 2023 2:08:42 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 119, so returning the closest version found: 115
+]]></system-err>
+  </testcase>
+</testsuite>
