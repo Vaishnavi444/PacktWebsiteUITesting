@@ -20,7 +20,7 @@ I have used surefire reporting method for reporting as it is compatible with Tes
 4. Instructions and commands to run your code:
    Github Repository Link:  https://github.com/Vaishnavi444/PacktWebsiteUITesting
    Commands to run:
-   C:\<Path to workspace>\Selenium\PacktSiteAutomation>mvn test
+   C:\<Path to workspace>\Selenium\PacktSiteAutomation>mvn test -DsuiteName=src/test/resources/AllTestsSuite.xml
    
 6. Any other information you would like us to know:
    After running the test, Report can be viewed here
