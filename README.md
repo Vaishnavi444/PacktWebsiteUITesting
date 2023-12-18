@@ -1,7 +1,7 @@
 # PacktWebsiteUITesting
 Repo with automated tests for Packt Website
 1. Reasoning for your choice of automation software and reporting:
-I have used Java programming language, Testng as testing framework and Maven as the software project management tool. The reason I have chosen these is because I have experience in working with these tools since my graduation and internship.
+I have used Java programming language, Selenium as the Test Automation too, Testng as testing framework and Maven as the software project management tool. The reason I have chosen these is because I have experience in working with these tools since my graduation and internship.
 I have used surefire reporting method for reporting as it is compatible with Testng
 
 
