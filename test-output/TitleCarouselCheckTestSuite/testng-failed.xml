@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TitleCarouselCheckTestSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="TitleCarouselCheckTest(failed)">
+    <classes>
+      <class name="com.packtWebsiteAutomation.PacktSiteAutomation.TitleCarouselCheckTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="TestToClickTitles"/>
+        </methods>
+      </class> <!-- com.packtWebsiteAutomation.PacktSiteAutomation.TitleCarouselCheckTest -->
+    </classes>
+  </test> <!-- TitleCarouselCheckTest(failed) -->
+</suite> <!-- Failed suite [TitleCarouselCheckTestSuite] -->

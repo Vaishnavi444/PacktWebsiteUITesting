@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="CheckBrowserLibraryTestSuite" verbose="1">
+	
+	<test name="CheckBrowserLibraryTest">
+		<classes>
+			<class name="com.packtWebsiteAutomation.PacktSiteAutomation.CheckBrowseLibraryTest" />
+		</classes>
+	</test>
+	
+</suite>

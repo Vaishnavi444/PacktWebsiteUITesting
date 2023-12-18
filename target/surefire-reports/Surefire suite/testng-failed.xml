@@ -3,13 +3,37 @@
 <suite thread-count="1" name="Failed suite [Surefire suite]" verbose="0">
   <test thread-count="1" name="Surefire test(failed)" verbose="0">
     <classes>
-      <class name="com.packtWebsiteAutomation.PacktSiteAutomation.TitleCarouselCheck">
+      <class name="com.packtWebsiteAutomation.PacktSiteAutomation.NavigationTest">
         <methods>
           <include name="tearDown"/>
-          <include name="TestToClickTitles"/>
           <include name="setUp"/>
+          <include name="testNavigation"/>
         </methods>
-      </class> <!-- com.packtWebsiteAutomation.PacktSiteAutomation.TitleCarouselCheck -->
+      </class> <!-- com.packtWebsiteAutomation.PacktSiteAutomation.NavigationTest -->
+      <class name="com.packtWebsiteAutomation.PacktSiteAutomation.WebPageElementTest">
+        <methods>
+          <include name="testText"/>
+          <include name="testButtonColor"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="testLogo"/>
+          <include name="testSearchPosition"/>
+        </methods>
+      </class> <!-- com.packtWebsiteAutomation.PacktSiteAutomation.WebPageElementTest -->
+      <class name="com.packtWebsiteAutomation.PacktSiteAutomation.TitleCarouselCheckTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="TestToClickTitles"/>
+        </methods>
+      </class> <!-- com.packtWebsiteAutomation.PacktSiteAutomation.TitleCarouselCheckTest -->
+      <class name="com.packtWebsiteAutomation.PacktSiteAutomation.CheckBrowseLibraryTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="BrowserLibraryVerification"/>
+        </methods>
+      </class> <!-- com.packtWebsiteAutomation.PacktSiteAutomation.CheckBrowseLibraryTest -->
     </classes>
   </test> <!-- Surefire test(failed) -->
 </suite> <!-- Failed suite [Surefire suite] -->

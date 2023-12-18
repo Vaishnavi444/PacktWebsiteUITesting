@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="TitleCarouselCheckTestSuite" verbose="1">
+	
+	<test name="TitleCarouselCheckTest">
+		<classes>
+			<class name="com.packtWebsiteAutomation.PacktSiteAutomation.TitleCarouselCheckTest" />
+		</classes>
+	</test>
+	
+</suite>

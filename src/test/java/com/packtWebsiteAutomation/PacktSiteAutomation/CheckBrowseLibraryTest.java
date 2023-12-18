@@ -3,6 +3,9 @@ package com.packtWebsiteAutomation.PacktSiteAutomation;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.Test;
+
+import com.packtWebsiteAutomation.configuration.Configuration;
+
 import org.testng.annotations.BeforeMethod;
 import java.io.UnsupportedEncodingException;
 import java.net.URLDecoder;
@@ -33,13 +36,28 @@ public class CheckBrowseLibraryTest
 			System.out.println("Browser started");
 			driver.get(homeURL);
 			driver.manage().window().maximize();
+			/*
+			 * WebElement signIn =
+			 * driver.findElement(By.xpath("//*[@id=\"packt-navbar-nav\"]/div/a[3]"));
+			 * signIn.click();
+			 * driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10)); WebElement
+			 * emailField = driver.findElement(By.id("inline-form-input-username"));
+			 * WebElement passwordField =
+			 * driver.findElement(By.id("inline-form-input-password")); WebElement
+			 * signInButton = driver .findElement(By.xpath(
+			 * "//button[@class='login-page__main__container__login__form__button__login']")
+			 * ); String email = Configuration.getEmail(); String password =
+			 * Configuration.getPassword(); emailField.sendKeys(email);
+			 * passwordField.sendKeys(password); signInButton.click();
+			 * driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
+			 */
 		}
 		
-		@Test
+		@Test(priority=6)
 		public void BrowserLibraryVerification() throws UnsupportedEncodingException, InterruptedException
 		{
 			System.out.println("CHECK BROWSER LIBRARY TEST STARTED");
-			driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
+			driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 			WebElement browseLibrary = driver.findElement(By.xpath("/html/body/div[1]/div/nav/div[1]/a"));
 			String expectedURL = browseLibrary.getAttribute("href");
 			expectedURL = URLDecoder.decode(expectedURL, "UTF-8");

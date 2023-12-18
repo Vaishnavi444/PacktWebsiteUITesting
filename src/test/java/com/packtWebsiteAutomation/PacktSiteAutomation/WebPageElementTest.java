@@ -2,6 +2,9 @@ package com.packtWebsiteAutomation.PacktSiteAutomation;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.Test;
+
+import com.packtWebsiteAutomation.configuration.Configuration;
+
 import org.testng.annotations.BeforeMethod;
 import org.testng.AssertJUnit;
 import java.time.Duration;
@@ -30,34 +33,40 @@ public class WebPageElementTest {
 		String url = "https://subscription.packtpub.com/";
 		driver.get(url);
 		driver.manage().window().maximize();
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+		/*
+		 * WebElement signIn =
+		 * driver.findElement(By.xpath("//*[@id=\"packt-navbar-nav\"]/div/a[3]"));
+		 * signIn.click();
+		 * driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10)); WebElement
+		 * emailField = driver.findElement(By.id("inline-form-input-username"));
+		 * WebElement passwordField =
+		 * driver.findElement(By.id("inline-form-input-password")); WebElement
+		 * signInButton = driver .findElement(By.xpath(
+		 * "//button[@class='login-page__main__container__login__form__button__login']")
+		 * ); String email = Configuration.getEmail(); String password =
+		 * Configuration.getPassword(); emailField.sendKeys(email);
+		 * passwordField.sendKeys(password); signInButton.click();
+		 * driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
+		 */
 		
     }
-
-	/*
-	 * @Test public void testHeaderElement() { // Example: Test the header text
-	 * WebElement headerElement =
-	 * driver.findElement(By.xpath("/html/body/div[1]/div/nav"));
-	 * Assert.assertEquals(headerElement.getText(), "Expected Header Text"); }
-	 */
     
-    
-    @Test
+    @Test(priority=1)
     public void testLogo() {
     	System.out.println("WEB ELEMENTS TEST STARTED -- LOGO");
     	WebElement logo = driver.findElement(By.cssSelector(".logo"));
-        AssertJUnit.assertTrue(logo.isDisplayed());
+        Assert.assertTrue(logo.isDisplayed());
     }
     
-    @Test
+    @Test(priority=2)
     public void testButtonColor() {
     	System.out.println("WEB ELEMENTS TEST STARTED -- BUTTON COLOR");
         WebElement buttonElement = driver.findElement(By.cssSelector(".button--more-info"));
         String buttonColor = buttonElement.getCssValue("color");
-        AssertJUnit.assertEquals(buttonColor, "rgba(236, 102, 17, 1)");// color: orange
+        Assert.assertEquals(buttonColor, "rgba(236, 102, 17, 1)");// color: orange
     }
     
-    @Test
+    @Test(priority=3)
     public void testSearchPosition() {
     	System.out.println("WEB ELEMENTS TEST STARTED -- SEARCH BAR POSITION");
     	WebElement searchButton = driver.findElement(By.xpath("/html/body/div[1]/div/nav/form/input"));
@@ -66,17 +75,17 @@ public class WebPageElementTest {
     	int actualX = searchButton.getLocation().getX();
     	int actualY = searchButton.getLocation().getY();
     	System.out.println("Positions: X = "+actualX+", Y = "+actualY);
-        AssertJUnit.assertTrue(actualX > 0);
-        AssertJUnit.assertTrue(actualY > 0);
+        Assert.assertTrue(actualX > 0);
+        Assert.assertTrue(actualY > 0);
     }
     
-    @Test
+    @Test(priority=4)
     public void testText() {
     	System.out.println("WEB ELEMENTS TEST STARTED -- TEXT VERIFICATION");
     	driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
     	WebElement button = driver.findElement(By.xpath("/html/body/div[1]/div/nav/div[2]/a/div/button"));
     	String textValue = button.getText();
-    	AssertJUnit.assertEquals(textValue, "Advanced Search");
+    	Assert.assertEquals(textValue, "Advanced Search");
     }
 
     @AfterTest

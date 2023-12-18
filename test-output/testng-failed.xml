@@ -3,13 +3,6 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.packtWebsiteAutomation.PacktSiteAutomation.TitleCarouselCheck">
-        <methods>
-          <include name="tearDown"/>
-          <include name="TestToClickTitles"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- com.packtWebsiteAutomation.PacktSiteAutomation.TitleCarouselCheck -->
       <class name="com.packtWebsiteAutomation.PacktSiteAutomation.NavigationTest">
         <methods>
           <include name="tearDown"/>
@@ -17,23 +10,6 @@
           <include name="testNavigation"/>
         </methods>
       </class> <!-- com.packtWebsiteAutomation.PacktSiteAutomation.NavigationTest -->
-      <class name="com.packtWebsiteAutomation.PacktSiteAutomation.CheckBrowseLibrary">
-        <methods>
-          <include name="tearDown"/>
-          <include name="setUp"/>
-          <include name="BrowserLibraryVerification"/>
-        </methods>
-      </class> <!-- com.packtWebsiteAutomation.PacktSiteAutomation.CheckBrowseLibrary -->
-      <class name="com.packtWebsiteAutomation.PacktSiteAutomation.WebPageElementTest">
-        <methods>
-          <include name="testButtonColor"/>
-          <include name="testText"/>
-          <include name="setUp"/>
-          <include name="testLogo"/>
-          <include name="tearDown"/>
-          <include name="testSearchPosition"/>
-        </methods>
-      </class> <!-- com.packtWebsiteAutomation.PacktSiteAutomation.WebPageElementTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -1,0 +1,28 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="CheckBrowserLibraryTestSuite" verbose="1" parallel="none">
+
+<test name="WebPageElementTest">
+		<classes>
+			<class name="com.packtWebsiteAutomation.PacktSiteAutomation.WebPageElementTest" />
+		</classes>
+	</test>
+<test name="NavigationTest">
+		<classes>
+			<class name="com.packtWebsiteAutomation.PacktSiteAutomation.NavigationTest" />
+		</classes>
+	</test>
+	
+	<test name="CheckBrowserLibraryTest">
+		<classes>
+			<class name="com.packtWebsiteAutomation.PacktSiteAutomation.CheckBrowseLibraryTest" />
+		</classes>
+	</test>	
+	
+	<test name="TitleCarouselCheckTest">
+		<classes>
+			<class name="com.packtWebsiteAutomation.PacktSiteAutomation.TitleCarouselCheckTest" />
+		</classes>
+	</test>
+
+</suite>

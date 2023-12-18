@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="WebPageElementTestSuite" verbose="1">
+	
+	<test name="WebPageElementTest">
+		<classes>
+			<class name="com.packtWebsiteAutomation.PacktSiteAutomation.WebPageElementTest" />
+		</classes>
+	</test>
+	
+</suite>
